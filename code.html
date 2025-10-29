@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Brussels Bus &amp; Coach - Location d'autocar et de bus avec chauffeur à Bruxelles</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Eb+Garamond:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>tailwind.config = {darkMode: "class", theme: {extend: {colors: {primary: "#000000", "background-light": "#f7f7f7", "background-dark": "#191919"}, fontFamily: {display: "Eb Garamond"}, borderRadius: {DEFAULT: "0.5rem", lg: "1rem", xl: "1.5rem", full: "9999px"}}}};</script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="mx-auto flex max-w-7xl items-center justify-between whitespace-nowrap border-b border-solid border-gray-200/80 dark:border-gray-700/80 px-4 sm:px-6 lg:px-8 py-3">
+<div class="flex items-center gap-4 text-gray-900 dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Brussels Bus &amp; Coach</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-sm font-medium leading-normal text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors" href="#services">Services</a>
+<a class="text-sm font-medium leading-normal text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors" href="#fleet">Fleet</a>
+<a class="text-sm font-medium leading-normal text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-medium leading-normal text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors" href="#contact">Contact</a>
+</div>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors" href="#quote-form">
+<span class="truncate">Request Quote</span>
+</a>
+</nav>
+<button class="md:hidden p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-800">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-1">
+<!-- HeroSection -->
+<section class="w-full">
+<div class="@container">
+<div class="flex min-h-[60vh] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 items-center justify-center p-4 text-center" data-alt="Modern coach bus driving through a street in Brussels with historic buildings in the background" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCxm5Ye1TVAQeo7S9j-IKYbdaBdHwCbv109rLQY9RBEZn5VAQGDy68uoMgiXYMww4G_Zqp-N1Fa6efDJ2fY8ZGLEbZEMi3MFKtK8952RN5kGaGWArn6QbpD2XfZe6HImRudriF7w8gMPeXSJuIzfRwpO3FN7AcQZu60bZYSFtPdfSam65mGJNxYmTxxxGI6ZgF06EqSU_xEjnnJJnE65Oy6Dm5bWoRJPgNfMD3zZlt71kpjL7DAeOAVm78FFlFu00hv_uXJapkq1V-c");'>
+<div class="flex flex-col gap-4 max-w-4xl mx-auto">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] md:text-5xl lg:text-6xl">Location d’autocar et de bus avec chauffeur à Bruxelles</h1>
+<h2 class="text-white/90 text-base font-normal leading-normal md:text-lg">Votre partenaire de confiance pour un transport professionnel, sûr, confortable et ponctuel.</h2>
+</div>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-transform hover:scale-105" href="#quote-form">
+<span class="truncate">Demandez un devis gratuit</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Quick Quote Form Section -->
+<section class="py-16 sm:py-24 bg-white dark:bg-background-dark/50" id="quote-form">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="mx-auto max-w-3xl">
+<h2 class="text-center text-3xl font-bold leading-tight tracking-[-0.015em] text-gray-900 dark:text-white">Demandez un devis rapide</h2>
+<p class="mt-2 text-center text-lg text-gray-600 dark:text-gray-400">Remplissez le formulaire ci-dessous et nous vous répondrons rapidement.</p>
+<form class="mt-10 space-y-6">
+<div class="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2">
+<div class="sm:col-span-2">
+<label class="block">
+<p class="pb-2 text-base font-medium text-gray-900 dark:text-gray-100">Type de service</p>
+<select class="form-select flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 h-14 p-[15px] text-base font-normal leading-normal">
+<option>Sélectionnez un service</option>
+<option>Navettes aéroport</option>
+<option>Transport scolaire</option>
+<option>Mariages &amp; Événements</option>
+<option>Voyages d'entreprise</option>
+<option>Voyages touristiques</option>
+</select>
+</label>
+</div>
+<div>
+<label class="block">
+<p class="pb-2 text-base font-medium text-gray-900 dark:text-gray-100">Lieu de prise en charge</p>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 h-14 placeholder:text-gray-500 p-[15px] text-base font-normal leading-normal" placeholder="Entrez l'adresse de départ" value=""/>
+</label>
+</div>
+<div>
+<label class="block">
+<p class="pb-2 text-base font-medium text-gray-900 dark:text-gray-100">Lieu de destination</p>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 h-14 placeholder:text-gray-500 p-[15px] text-base font-normal leading-normal" placeholder="Entrez l'adresse d'arrivée" value=""/>
+</label>
+</div>
+<div>
+<label class="block">
+<p class="pb-2 text-base font-medium text-gray-900 dark:text-gray-100">Nombre de passagers</p>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 h-14 placeholder:text-gray-500 p-[15px] text-base font-normal leading-normal" placeholder="Ex: 25" type="number" value=""/>
+</label>
+</div>
+<div>
+<label class="block">
+<p class="pb-2 text-base font-medium text-gray-900 dark:text-gray-100">Date et heure de départ</p>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 h-14 placeholder:text-gray-500 p-[15px] text-base font-normal leading-normal" type="datetime-local"/>
+</label>
+</div>
+</div>
+<div class="flex justify-center">
+<button class="flex min-w-[84px] w-full sm:w-auto cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors" type="submit">
+<span class="truncate">Obtenir mon devis</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-16 sm:py-24" id="services">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="text-center">
+<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Nos Services</h2>
+<p class="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-400">Des solutions de transport adaptées à tous vos besoins.</p>
+</div>
+<div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+<div class="flex flex-col items-center text-center p-6 bg-white dark:bg-gray-800/50 rounded-xl shadow-sm hover:shadow-lg transition-shadow">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-4xl">flight</span>
+</div>
+<h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Navettes Aéroport</h3>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Transferts fiables et ponctuels vers et depuis les aéroports de Bruxelles.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 bg-white dark:bg-gray-800/50 rounded-xl shadow-sm hover:shadow-lg transition-shadow">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-4xl">school</span>
+</div>
+<h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Transport Scolaire</h3>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Sécurité et confort pour le transport quotidien des élèves et les sorties scolaires.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 bg-white dark:bg-gray-800/50 rounded-xl shadow-sm hover:shadow-lg transition-shadow">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-4xl">celebration</span>
+</div>
+<h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Mariages &amp; Événements</h3>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Transportez vos invités avec élégance et sérénité pour vos jours spéciaux.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 bg-white dark:bg-gray-800/50 rounded-xl shadow-sm hover:shadow-lg transition-shadow">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-4xl">corporate_fare</span>
+</div>
+<h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Voyages d'Entreprise</h3>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Solutions professionnelles pour séminaires, conférences et déplacements d'équipes.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Fleet Showcase Section -->
+<section class="py-16 sm:py-24 bg-white dark:bg-background-dark/50" id="fleet">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="text-center">
+<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Notre Flotte</h2>
+<p class="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-400">Des véhicules modernes et confortables pour tous les groupes.</p>
+</div>
+<div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+<div class="overflow-hidden rounded-xl bg-white dark:bg-gray-800 shadow-lg">
+<img alt="Interior of a modern minibus" class="h-56 w-full object-cover" data-alt="Interior of a modern minibus with comfortable leather seats" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4LF_GSZ7agxvlO2hrO4v8O83y6Yjxet6SlvcrDI6T3k0EYMEcBDXlMalgPJAbnFYQx5-gU49yVT8UAtfe2XRcGiCG01LY7KUPN0jtG9buPDk-3Cmj6ZclyPpWbBRxY-7XgBbDRvakkSND8qNTURiWepQ7buVeCV3-ZJE98JzrA2S-RTMFjnVPf7UqLliXnBNpNIlf6dBGHLamsZjw30_wBmrD3nCmdHwuoUnnjJ7U7Uk7IfytDTV8BFR-SVgk_bayx7vJLahYemfx"/>
+<div class="p-6">
+<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Minibus</h3>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Idéal pour les petits groupes, jusqu'à 20 passagers.</p>
+</div>
+</div>
+<div class="overflow-hidden rounded-xl bg-white dark:bg-gray-800 shadow-lg">
+<img alt="A modern white coach bus" class="h-56 w-full object-cover" data-alt="A modern white coach bus parked in a scenic location" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxM36_HyK4jOp3BGxLcGKH6NhmX9YEvpmYLR3nlaAFqbTo1JukhF9na10gszoHWeTfyiYg3t84Kj1aPryDbCQk9cKaryKaJtD_J6yyXdQOrOjdQK6tHM11CFqQ_-9cdfFyLDDym1GYt5Ux6n3jgcLuffTiuZb61fz0Qo5rhGQXEuC9veksAjVtIfu7WXZpw-DThgQ6oJEvj7Wf46Zj3fxpjDBaqT5xXUHyGEV-rKeKVfyBjB9TcZAv72RvewlV6Vzfgr15zCXp9JdE"/>
+<div class="p-6">
+<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Autocar Standard</h3>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Parfait pour les voyages nationaux, jusqu'à 50 passagers.</p>
+</div>
+</div>
+<div class="overflow-hidden rounded-xl bg-white dark:bg-gray-800 shadow-lg">
+<img alt="Luxury coach bus with ample seating" class="h-56 w-full object-cover" data-alt="Luxury coach bus with ample comfortable seating and overhead storage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCc4GPmB7fEbabM9fh42pMgkgZZmcR_S2OPvYCPSinBhPzhvAcfob6FTddfmOXQ952b1ZLKhmhoVkh1EmEFTmO-DzoJta8t3gjvXBGyvnEBiExzPKMDj55QFCcw-6339Sh8wGI1IPjzfkx8G5acSU6TmkyR_ET1G1pBh_3nrDBTEUALMAHNkhfyeLi3RtKuX_eRlAXAymqzB_IWBz-ltJ23GIugi0T9_Ehl2R0uIoPl0x9sRbOebohyEhF9vGMrabF-Vba2ZsinnzyL"/>
+<div class="p-6">
+<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Autocar Grand Tourisme</h3>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Pour le confort maximal sur longues distances, jusqu'à 60 passagers.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials Section -->
+<section class="py-16 sm:py-24" id="about">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="text-center">
+<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Ce que disent nos clients</h2>
+</div>
+<div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="flex flex-col p-6 bg-white dark:bg-gray-800/50 rounded-xl shadow-sm">
+<p class="flex-grow text-gray-600 dark:text-gray-400">"Service impeccable pour notre séminaire d'entreprise. Le chauffeur était professionnel et le bus très confortable. Nous ferons de nouveau appel à vous."</p>
+<div class="mt-4 font-semibold text-gray-900 dark:text-white">
+<p>Jean Dupont</p>
+<p class="text-sm font-normal text-primary">CEO, Tech Solutions</p>
+</div>
+</div>
+<div class="flex flex-col p-6 bg-white dark:bg-gray-800/50 rounded-xl shadow-sm">
+<p class="flex-grow text-gray-600 dark:text-gray-400">"Le transport pour notre mariage était parfait. Ponctualité, gentillesse du chauffeur et un bus impeccable pour nos invités. Merci !"</p>
+<div class="mt-4 font-semibold text-gray-900 dark:text-white">
+<p>Marie &amp; Luc</p>
+<p class="text-sm font-normal text-primary">Jeunes Mariés</p>
+</div>
+</div>
+<div class="flex flex-col p-6 bg-white dark:bg-gray-800/50 rounded-xl shadow-sm">
+<p class="flex-grow text-gray-600 dark:text-gray-400">"Nous utilisons Brussels Bus &amp; Coach pour toutes nos sorties scolaires. La sécurité est leur priorité et les enfants adorent le confort des cars."</p>
+<div class="mt-4 font-semibold text-gray-900 dark:text-white">
+<p>Sophie Leroy</p>
+<p class="text-sm font-normal text-primary">Directrice, École St-Michel</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-gray-900 dark:bg-black text-white" id="contact">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+<div>
+<h3 class="text-lg font-bold">Brussels Bus &amp; Coach</h3>
+<p class="mt-2 text-sm text-gray-400">Votre partenaire de confiance pour le transport à Bruxelles et au-delà.</p>
+</div>
+<div>
+<h4 class="font-semibold">Navigation</h4>
+<ul class="mt-2 space-y-1">
+<li><a class="text-sm text-gray-400 hover:text-white" href="#services">Services</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white" href="#fleet">Flotte</a></li>
+<li><a class="text-sm text-gray-400 hover:text-white" href="#about">À propos</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold">Contact</h4>
+<ul class="mt-2 space-y-1 text-sm text-gray-400">
+<li>Email: contact@brusselsbus.be</li>
+<li>Téléphone: +32 2 123 45 67</li>
+<li>Adresse: 1000 Bruxelles, Belgique</li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold">Suivez-nous</h4>
+<div class="mt-2 flex space-x-4">
+<a class="text-gray-400 hover:text-white" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+<path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="text-gray-400 hover:text-white" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+<path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-8 border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
+<p>© 2024 Brussels Bus &amp; Coach. Tous droits réservés.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
